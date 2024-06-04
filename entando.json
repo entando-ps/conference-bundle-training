@@ -29,6 +29,13 @@
                     "type": "internal",
                     "serviceName": "conference-ms"
                 }
+            ],
+            "configMfe": "ng-config-form",
+            "params": [
+                {
+                    "name": "location",
+                    "description": "location della conferenza"
+                }
             ]
         },
         {
@@ -50,6 +57,15 @@
                     "serviceName": "conference-ms"
                 }
             ]
+        },
+        {
+            "name": "ng-config-form",
+            "customElement": "ng-config-form",
+            "stack": "angular",
+            "type": "widget-config",
+            "group": "free",
+            "publicFolder": "public",
+            "buildFolder": "dist"
         }
     ],
     "svc": [
