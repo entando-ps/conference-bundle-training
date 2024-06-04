@@ -1,0 +1,12 @@
+{
+  "generator-jhipster-entando:7.3.0": {
+    "promptValues": {
+      "packageName": "it.bvtech.bundle"
+    }
+  },
+  "generator-jhipster:7.9.3": {
+    "promptValues": {
+      "nativeLanguage": "it"
+    }
+  }
+}

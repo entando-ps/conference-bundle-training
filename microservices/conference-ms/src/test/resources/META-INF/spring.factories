@@ -1,0 +1,1 @@
+org.springframework.test.context.ContextCustomizerFactory = it.bvtech.bundle.config.TestContainersSpringContextCustomizerFactory
