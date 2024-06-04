@@ -66,12 +66,34 @@
             "group": "free",
             "publicFolder": "public",
             "buildFolder": "dist"
+        },
+        {
+            "name": "ng-epc",
+            "customElement": "ng-epc",
+            "stack": "angular",
+            "type": "app-builder",
+            "group": "free",
+            "buildFolder": "dist",
+            "publicFolder": "public",
+            "slot": "content",
+            "paths": ["/ng-epc"],
+            "nav": [
+                {
+                    "label": {
+                      "en": "My EPC Label",
+                      "it": "La mia EPC Label"
+                    },
+                    "target": "internal", 
+                    "url": "/ng-epc"
+                }
+            ]    
+            
         }
     ],
     "svc": [
         "keycloak"
     ],
-    "name": "test-bundle",
+    "name": "ng-test-bundle",
     "version": "0.0.1",
     "description": "test-bundle description",
     "type": "bundle"
