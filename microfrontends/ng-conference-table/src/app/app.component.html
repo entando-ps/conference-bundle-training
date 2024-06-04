@@ -1,0 +1,19 @@
+@if(conferences) {
+<table class="table">
+  <thead>
+    <tr>
+      <th>Conference</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for(conference of conferences; track conference.id){
+
+    <tr>
+      <td>{{ conference.name }}</td>
+      <td>{{ conference.location }}</td>
+    </tr>
+    }
+  </tbody>
+</table>
+}

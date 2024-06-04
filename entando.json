@@ -30,6 +30,26 @@
                     "serviceName": "conference-ms"
                 }
             ]
+        },
+        {
+            "name": "ng-conference-table",
+            "customElement": "ng-conference-table",
+            "stack": "angular",
+            "type": "widget",
+            "buildFolder": "dist",
+            "group": "free",
+            "publicFolder": "public",
+            "titles": {
+                "en": "ng-conference-table",
+                "it": "ng-conference-table"
+            },
+            "apiClaims": [
+                {
+                    "name": "conference-ms-claim",
+                    "type": "internal",
+                    "serviceName": "conference-ms"
+                }
+            ]
         }
     ],
     "svc": [
