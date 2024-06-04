@@ -1,0 +1,27 @@
+<div class="mb-16 bordered p-2 card">
+  <div class="card-body">
+    <form
+      class="grid grid-flow-row gap-2"
+      [formGroup]="conferenceForm"
+      (ngSubmit)="saveNewConference()"
+    >
+      <label class="input input-bordered flex items-center gap-2">
+        <input
+          type="text"
+          class="grow"
+          placeholder="Name"
+          formControlName="name"
+        />
+      </label>
+      <label class="input input-bordered flex items-center gap-2">
+        <input
+          type="text"
+          class="grow"
+          placeholder="Location"
+          formControlName="location"
+        />
+      </label>
+      <button class="btn btn-success btn-active" [disabled]="conferenceForm.invalid">Save</button>
+    </form>
+  </div>
+</div>
